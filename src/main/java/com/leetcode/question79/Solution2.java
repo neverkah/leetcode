@@ -5,6 +5,7 @@ https://leetcode.com/problems/word-search/
 
  */
 public class Solution2 {
+
 	public boolean exist(char[][] board, String word) {
 
 		int[][] isBoardVisted = new int[board.length][board[0].length];
